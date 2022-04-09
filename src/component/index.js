@@ -3,6 +3,7 @@ import Category from "./Category/Category";
 import ImageSlider from "./ImageSlider/ImageSlider";
 import Music from "./Music/Music";
 import Navbar from "./Navbar/Navbar";
+import NewReleases from "./NewReleases/NewReleases";
 
 
 const Index = () => {
@@ -12,6 +13,7 @@ const Index = () => {
             <Category />
             <ImageSlider />
             <Music />
+            <NewReleases/>
         </>
     )
 

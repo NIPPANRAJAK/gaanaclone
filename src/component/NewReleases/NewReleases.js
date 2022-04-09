@@ -1,19 +1,19 @@
 import React from "react";
-import "./style.css"
-import m1 from "../Music/image/m1.jpg"
-import m2 from "../Music/image/m2.jpg"
-import m3 from "../Music/image/m3.jpg"
-import m4 from "../Music/image/m4.jpg"
+import "../Music/style.css"
 import m5 from "../Music/image/m5.jpg"
+import i1 from "./Image/i1.jpeg"
+import i2 from "./Image/i2.jpeg"
+import i3 from "./Image/i3.jpeg"
+import i4 from "./Image/i4.jpeg"
 import MusicCard from "../MusicCard/MusicCard";
-const arr =[{image: m1, title:"As it is"},{image:m2, title:"Big Men" }, {image:m3, title:"Mast Nazron se" },{ image:m4, title:"Mera Yaar"} , {image:m5, title:"Tera Saath Ho"}]
-const Music = () => {
+const arr =[{image: i1, title:"Jo Mujhe Deewana Kar"},{image:i2, title:"Miss Hairan" }, {image:i3, title:"Dream" },{ image:i4, title:"Familia"} , {image:m5, title:"Tera Saath Ho"}]
+const NewReleases = () => {
 
 
     return (
         <>
             <h2 className="Heading">
-                Trending Songs
+                New Releases
             </h2>
 
             <div id="allMusic">
@@ -39,4 +39,4 @@ const Music = () => {
     )
 }
 
-export default Music;
+export default NewReleases;

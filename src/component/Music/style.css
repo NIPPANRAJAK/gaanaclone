@@ -11,9 +11,26 @@
  
  
  .Music1{
+   /* position: relative; */
    display: flex;
    flex-direction: row;
+   /* align-items:center ; */
+   /* justify-content: center; */
    gap: 50px;
    margin-left: 50px;
  }
- 
+ .playButton{
+   /* display: none; */
+   position: absolute;
+  top: 30px;
+   height: 100px;
+   width: 100px;
+
+ }
+
+ .MusicCard{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+ }
