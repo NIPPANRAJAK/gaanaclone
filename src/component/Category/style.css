@@ -1,0 +1,12 @@
+#category {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.scrolldown {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,28 @@
+.component{
+    /* height: 100%; */
+    width: 100%;
+    object-fit: contain;
+    /* margin-bottom: 0%; */
+    margin-top: 100px;
+    }
+    
+    
+    #allMusic{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .button{
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    
+    }
+    .slider{
+        max-width: 800px;
+        margin: auto;
+      }

@@ -1,0 +1,19 @@
+.Heading{
+  margin-left: 50px;
+}
+
+.music{
+  height: 150px;
+  width: 150px;
+  border-radius: 5%;
+ }
+ 
+ 
+ 
+ .Music1{
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+   margin-left: 50px;
+ }
+ 
